@@ -1,0 +1,23 @@
+{
+  "name": "type-orm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Karen Grigoryan",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
